@@ -20,8 +20,7 @@ class Patient
     Appointment.all.collect {|appointment| appointment.doctor}
   end
   
-  
-   def self.all 
+  def self.all 
     @@all
   end
   
